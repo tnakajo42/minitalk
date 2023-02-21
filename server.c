@@ -6,12 +6,11 @@
 /*   By: tnakajo <tnakajo@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 19:11:54 by tnakajo           #+#    #+#             */
-/*   Updated: 2023/02/18 23:25:00 by tnakajo          ###   ########.fr       */
+/*   Updated: 2023/02/21 23:08:42 by tnakajo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
-#include <unistd.h>
 
 static void	ft_server(int signal, siginfo_t *info, void *s)
 {
